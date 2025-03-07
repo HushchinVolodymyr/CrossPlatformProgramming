@@ -1,8 +1,10 @@
 import 'package:app/pages/Task1Page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
 
 void main() {
+  debugPaintSizeEnabled = false;
   runApp(MyApp());
 }
 

@@ -46,7 +46,7 @@ class MyDrawer extends StatelessWidget {
           ListTile(
             title: Text("Task 6"),
             onTap: () {
-              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Task6page()));
+              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Task6Page()));
             },
           ),
         ],
