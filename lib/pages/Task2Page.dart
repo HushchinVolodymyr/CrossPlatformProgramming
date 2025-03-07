@@ -48,7 +48,7 @@ class _Task2pageState extends State<Task2page> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Task 2")),
-      drawer: MyDrawer(), // Боковое меню
+      drawer: MyDrawer(),
       body: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
